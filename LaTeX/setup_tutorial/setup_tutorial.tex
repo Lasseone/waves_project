@@ -1,0 +1,43 @@
+\documentclass{article}
+
+\usepackage[T1]{fontenc}
+
+\title{How To Set Up This Shit}
+
+\begin{document}
+
+\section{Setting Up Git}
+	\subsection{Installation}
+		Go to https://git-scm.com/downloads and download git
+		
+	\subsection{Configuring Git}
+		- Open your command prompt\newline\newline
+		- Type 'git config --global user.name "your github username here"'\newline\newline
+		- Type 'git config --global user.email "your email here"'
+	
+	\subsection{Cloning Project}
+		1: Change directory to where you want to store the project\newline\newline	
+		2: Type in 'git clone https://github.com/Lasseone/waves\textunderscore project.git'
+
+\section{Setting up LaTeX}
+You can figure this out for yourself. Just make sure to use MiKTeX so that we are all using the same version. MiKTeX automatically takes care of dependencies as well which is hella nice.\newline https://miktex.org/download
+
+\section{Using Git}
+Make sure when you are typing any git commands, that your current directory is the one you put the project in
+
+\subsection{Downloading Changes}
+- Type 'git fetch' to download any changes to the code that others in the group have made\newline\newline
+- Type 'git pull' to merge the changes with the files you currently have stored on your computer\newline
+
+\subsection{Making Changes}
+- Write some 200IQ LaTeX like you normally would and save the files as normal
+
+\subsection{Uploading Changes}
+- Type 'git add .' to tell git that you have been changing stuff. The '.' means 'all changes'\newline\newline
+- Type 'git commit -m "a short message which says what changes have been made"' \newline\newline
+- Type 'git push' to upload the changes to the server
+
+\subsection{Git Status}
+If you are ever in doubt, type 'git status' and it will almost always tell you what to do next (or just ask me)
+
+\end{document}
