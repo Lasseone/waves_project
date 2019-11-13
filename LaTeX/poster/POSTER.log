@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.22)  13 NOV 2019 22:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.22)  13 NOV 2019 23:36
 entering extended mode
 **./POSTER.tex
 (POSTER.tex
@@ -775,6 +775,11 @@ Package pdftex.def Info: figures/master_slave_topology.png  used on input line
 (pdftex.def)             Requested size: 126.76814pt x 67.29852pt.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
+<figures/bluetooth_logo.png, id=34, 513.92pt x 513.92pt>
+File: figures/bluetooth_logo.png Graphic file (type png)
+<use figures/bluetooth_logo.png>
+Package pdftex.def Info: figures/bluetooth_logo.png  used on input line 136.
+(pdftex.def)             Requested size: 11.30783pt x 11.30783pt.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -786,33 +791,34 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (2.22534pt too wide) in paragraph at lines 45--190
+Overfull \hbox (2.22534pt too wide) in paragraph at lines 45--177
 [][]  [] 
  []
 
 [2
 
 {C:/Users/tilla/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./figures/b
-ackground.pdf> <./figures/the_logo.png> <./figures/master_slave_topology.png>] 
-(POSTER.aux) ) 
+ackground.pdf> <./figures/the_logo.png> <./figures/bluetooth_logo.png> <./figur
+es/master_slave_topology.png>] (POSTER.aux) ) 
 Here is how much of TeX's memory you used:
- 16533 strings out of 492452
- 351131 string characters out of 3120063
- 413983 words of memory out of 3000000
- 20590 multiletter control sequences out of 15000+200000
+ 16540 strings out of 492452
+ 351316 string characters out of 3120063
+ 412267 words of memory out of 3000000
+ 20597 multiletter control sequences out of 15000+200000
  10572 words of font info for 23 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,10n,96p,411b,1015s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\tilla\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappe
-n/ec/dpi600\ecrm0800.pk> <C:\Users\tilla\AppData\Local\MiKTeX\2.9\fonts/pk/ljfo
-ur/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\tilla\AppData\Local\MiKTeX\2.9\fon
-ts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\tilla\AppData\Local\MiKT
-eX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\tilla\AppData\
-Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\till
-a\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk>
-Output written on POSTER.pdf (1 page, 335366 bytes).
+ 68i,10n,96p,411b,1122s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\tilla\AppData\Local\MiK
+TeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\tilla\AppData
+\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\til
+la\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:
+\Users\tilla\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx14
+40.pk> <C:\Users\tilla\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi
+600\ecrm1440.pk> <C:\Users\tilla\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecbx2488.pk>
+Output written on POSTER.pdf (1 page, 343574 bytes).
 PDF statistics:
- 246 PDF objects out of 1000 (max. 8388607)
+ 247 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 130 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 135 words of extra memory for PDF output out of 10000 (max. 10000000)
 
