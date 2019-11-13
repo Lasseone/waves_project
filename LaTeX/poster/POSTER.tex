@@ -56,7 +56,11 @@ Introduction here
 %	AFH
 %----------------------------------------------------------------------------------------
 \headerbox{Adaptive Frequency Hopping}{name=AFH,column=0,below=introduction}{
-Box for AFH (both Bluetooth and Wi-Fi are based on this)
+\textbf{What Is Frequency Hopping?} \\
+Adaptive Frequency Hopping (AFH) is a tehcnique where rather than using one single radiofrequency to transfer data, the frequency is constantly changing between a number of channels. This allows for both faster transfer speeds, and makes it harder for intruders to interfere with the signal. \\
+
+\textbf{Why Is It Adaptive?} \\
+The transmitting device is constantly monitoring the different channels to make an estimate of how good quality they are. For example, if one frequency is currently busy or being jammed, then it will simply use another channel.
 }
 
 %----------------------------------------------------------------------------------------
@@ -116,7 +120,23 @@ Optical fibre box here
 %	Bluetooth
 %----------------------------------------------------------------------------------------
 \headerbox{Bluetooth}{name=bluetooth,span=2,column=1,below=optical_fibre}{
-Bluetooth box here
+\textbf{Introduction} \\
+Bluetooth is a wireless communications technology for short-medium range data
+transfer
+
+\textbf{History}
+Bluetooth was developed by the Swedish telephone company Ericsson AB in
+1990, and it first hit the commercial markets in 1999
+
+\textbf{Master/Slave Topology}
+Bluetooth follows a master/slave topology where there is a master device broadcasting data to a maximum of seven slave devices. This network of 8 devices is
+known as a piconet. The master will always default to being the device which
+initialised the connection, however master and slave roles can be exchanged
+given that both devices agree upon this. 
+{\includegraphics[scale=0.15]{master_slave_topology}} % University/lab logo
+
+\textbf{Adaptive Frequency Hopping}
+Bluetooth uses a technique called adaptive frequency hopping, which is explained on the left side of this poster.
 }
 
 %----------------------------------------------------------------------------------------
@@ -129,7 +149,7 @@ Li-Fi box here
 %----------------------------------------------------------------------------------------
 %	Neutrinos
 %----------------------------------------------------------------------------------------
-\headerbox{Neutrino}{name=neutrino,span=2,column=1,below=lifi,above=bottom}{
+\headerbox{Neutrino}{name=neutrino,span=2,column=1,below=lifi}{
 \textbf{Introduction} \\
 Neutrino messaging is a hypothetical form of communication currently undergoing research.
 Neutrinos are advantageous in communicative methods in that they pass through normal
@@ -162,6 +182,13 @@ problem for certain detection methods.
 For example, in the 1960s, there was a discrepancy between the predicted and observed
 amount of neutrinos emitted by the sun. This was due to the detector not factoring in that
 electron neutrinos from the sun oscillated into different flavours en route to Earth
+}
+
+%----------------------------------------------------------------------------------------
+%	NFC
+%----------------------------------------------------------------------------------------
+\headerbox{NFC}{name=nfc,span=2,column=1,below=neutrino,above=bottom}{
+NFC box here
 }
 
 \end{poster}
