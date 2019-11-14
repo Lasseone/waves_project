@@ -3,6 +3,7 @@
 \usepackage[font=small,labelfont=bf]{caption} % Required for specifying captions to tables and figures
 \usepackage{booktabs} % Horizontal rules in tables
 \usepackage{relsize} % Used for making text smaller in some places
+\usepackage{wrapfig} %Used to wrap images around text
 
 \graphicspath{{figures/}} % Directory in which figures are stored
 
@@ -183,13 +184,17 @@ Bluetooth uses a technique known as AFH, which is explained on the left side of 
 %\textbf{Definition} Li-Fi is transmission of data by taking the fiber out of fiber optics by sending data through an LED bulb which varies in intensity faster than the human eye can follow.
 
 \textbf{Principle}  A light emitter, a photo detector; Modulate light intensity faster than eyes can follow; Receiver dongle converts  changes electrical signals; Signals converted back into a data stream and transferred to a mobile device.
-                                                                                
+                                   
+\begin{wrapfigure}{r}{0.22\textwidth}
+	{\includegraphics[scale=0.15]{Lifi}}
+\end{wrapfigure}                                             
  \textbf{Advantages} 1.faster,safer and more effiecient and diverse transmission of data 2. Bandwidth of visible spectrum is 10,000 times more than that of radio spectrum 3. Implementation and maintenance costs are minimal compared to Wi-Fi. 4.	Elimination of health problems 5. Enabling of Internet of Things on a large scale
+
 
 
 \textbf{Challenges} 1. Light can’t pass through object  2. Interference of other light sources can cause interruption in communication. 3. Communication is limited to point-to-point transfer when implemented at very  high frequencies.
 
-{\includegraphics[scale=0.15]{Lifi}}
+
 
 }
 
