@@ -43,7 +43,7 @@ boxshade=plain
 %	TITLE AND AUTHOR NAME
 %----------------------------------------------------------------------------------------
 {\sf\bf The  Role  of  Electromagnetic  Radiation\\ in  Information  Communications} % Poster title
-{\vspace{1em} Chris, Eddy, Ajan, Lasse, Alex, Kevin\\The League of Eurasians || Imperial College London} % Author names
+{\vspace{1em} Chris Wang, Eddy Tang, Ajan Manoharan, Lasse Lundberg, Alex Tiu, Kevin Teo\\The League of Eurasians || Blackett Laboratory, Imperial College London} % Author names
 {\includegraphics[scale=1.1]{the_logo}} % University/lab logo
 
 %----------------------------------------------------------------------------------------
@@ -70,7 +70,7 @@ The transmitting device moniters different channels to estimate their quality. I
 %----------------------------------------------------------------------------------------
 \headerbox{Neutrino Messaging}{name=neutrino,column=0,below=AFH}{
 
-\textbf{History}
+
 A hypothetical form of communication that is currently undergoing research.
 The presense and absense of neutrino pulses are represented as 1 and 0 respectively to encode messages. 
 This was experimentally verified in 2012.\\
@@ -104,7 +104,6 @@ These technologies have changed the world, allowing us to be interconnected to a
 \headerbox{References}{name=references,column=0,below=conclusion,above=bottom}{
 
 \smaller % Reduce the font size in this block
-idk if we need this
 \renewcommand{\section}[2]{\vskip 0.05em} % Get rid of the default "References" section title
 \nocite{*} % Insert publications even if they are not cited in the poster
 
@@ -116,20 +115,18 @@ idk if we need this
 %	Wi-Fi
 %----------------------------------------------------------------------------------------
 \headerbox{Wi-Fi}{name=wifi,span=2,column=1,row=0}{ % To reduce this block to 1 column width, remove 'span=2' 
-\textbf{Principles}
-Wi-Fi is defined as any “wireless local area network (WLAN) products that are based on the IEEE 802.11 standards."It is usually a wave of frequency between 2.4GHz to 5GHz.
 
-\textbf{Uses}
-Networks are created through Wi-Fi where multiple devices can connect to one source of Wi-Fi and thus access the internet as well as communicate with other devices connected to the network. 
+Wi-Fi is defined as any “wireless local area network (WLAN) products that are based on the IEEE 802.11 standards." It is usually a wave of frequency between 2.4GHz to 5GHz. Networks are created through Wi-Fi where multiple devices can connect to one source of Wi-Fi and thus access the internet as well as communicate with other devices connected to the network.  \linebreak
 
 \textbf{Advantages}\\
 •	Remote access for convenience\\
-•	Can support multiple simultaneous connections
+•	Can support multiple simultaneous connections\\
+• 	Uses AFH, as explained on the left side of this poster
 
 \textbf{Disadvantages}\\
 •	Limited by router location\\
 •	Subject to interference\\
-•	Slow speed compared to wired connection
+•	Slow speed compared to wired connections
 }
 
 %----------------------------------------------------------------------------------------
@@ -137,17 +134,18 @@ Networks are created through Wi-Fi where multiple devices can connect to one sou
 %----------------------------------------------------------------------------------------
 \headerbox{Optical Fibres}{name=optical_fibre,span=2,column=1,below=wifi}{
 
-\textbf {Introduction}
-Optical fibres utilise total internal reflection to confine light rays within its core. Modern fibre technologies are limited by physical phenomena of light travelling in an optical medium.
+Optical fibres utilise total internal reflection to confine light rays within its core. Modern fibre technologies are limited by physical phenomena of light travelling in an optical medium. \\
 
 \textbf{Residual Absorption}
-Fundamental vibration frequencies of the particles that make up the glass absorbs light with matching frequencies.   
+Fundamental vibration frequencies of the particles that make up the glass absorbs light of matching frequencies.   
 
 \textbf {Dispersion}
-Dispersion is an optical phenomenon where light of different frequencies travel at different velocities through an optical medium. In optical communications, data is coded in binary form and transmitted as pulses of light. As a laser pulse emits more than a single frequency of light, it is critical that the gap in time at the receiving end is not greater than the time period of the wave group, otherwise the original data would be lost. 
+An optical phenomenon that causes light of different wavelengths to travel at different velocities through an optical medium. This creates a disparity in the time of a single pulse of light at the receving end, which can corrupt the transferred data
+
+
 
 \textbf {Rayleigh Scattering}
-An atom or molecule reradiates incident light in any direction except the incident direction. This effect is magnified at shorter wavelengths, and is increased by imperfections in the composition of the silica glass on a molecular level. 
+An atom or molecule reradiates incident light in any direction except the incident direction.
 
 }
 
@@ -155,18 +153,17 @@ An atom or molecule reradiates incident light in any direction except the incide
 %	Bluetooth
 %----------------------------------------------------------------------------------------
 \headerbox{Bluetooth {\includegraphics[scale=0.02]{bluetooth_logo}}}{name=bluetooth,span=2,column=1,below=optical_fibre}{
-\textbf{History}
-Bluetooth was developed by the Swedish telephone company Ericsson AB in
-1990
 
 \begin{wrapfigure}{r}{0.25\textwidth}
 	{\includegraphics[scale=0.12]{master_slave_topology}} % University/lab logo
 \end{wrapfigure}
 
+Bluetooth was developed by the Swedish telephone company Ericsson AB in 1990 \\
+
 \textbf{Master/Slave Topology}
 Bluetooth follows a master/slave topology where there is a master device broadcasting data to a maximum of seven slave devices. This network of 8 devices is
 known as a piconet. The master will always default to being the device which
-initialised the connection, however master and slave roles can be exchanged
+initialised the connection. However, master and slave roles can be exchanged
 given that both devices agree upon this. 
 
 
@@ -179,18 +176,25 @@ Bluetooth uses a technique known as AFH, which is explained on the left side of 
 %----------------------------------------------------------------------------------------
 \headerbox{Li-Fi}{name=lifi,span=2,column=1,below=bluetooth}{
 
-%\textbf{Definition} Li-Fi is transmission of data by taking the fiber out of fiber optics by sending data through an LED bulb which varies in intensity faster than the human eye can follow.
 
-\textbf{Principle} A light emitter modulates light intensity while a photo detector receives the signal and converts it back to an electrical data stream. 
+
+%\begin{wrapfigure}{r}{0.26\textwidth}
+%	{\includegraphics[scale=0.17]{Lifi}}
+%\end{wrapfigure}               
+
+Li-Fi involves the use of light emitters that modulate light intensity and a photo detector that receives the signal and converts it back into an electrical data stream. \linebreak
 
 %A light emitter, a photo detector; Modulate light intensity faster than eyes can follow; Receiver dongle converts  changes electrical signals; Signals converted back into a data stream and transferred to a mobile device.
                                    
-\begin{wrapfigure}{r}{0.22\textwidth}
-	{\includegraphics[scale=0.15]{Lifi}}
-\end{wrapfigure}                                             
- \textbf{Advantages} • Bandwidth of the visible spectrum is 10,000 times more than that of the radio spectrum • Implementation and maintenance costs are minimal compared to Wi-Fi • Elimination of health problems • Enabling of the Internet of Things on a large scale
+                              
+ \textbf{Advantages} \\
+• High bandwidth compared to mobile signals \\
+• Minimal maintenance and setup costs 
 
-\textbf{Disadvantages} • Light can’t pass through objects  • Interference from other light sources can cause interruption in communication •	 Communication is limited to point-to-point transfer when implemented at very high frequencies.
+\textbf{Disadvantages}\\
+• Can be obstructed easily\\
+• Prone to interference from other light sources \\
+• Limited to point-to-point transfer at very high frequencies.
 
 
 }
@@ -198,13 +202,14 @@ Bluetooth uses a technique known as AFH, which is explained on the left side of 
 %----------------------------------------------------------------------------------------
 %	NFC
 %----------------------------------------------------------------------------------------
-\headerbox{Near Field Communication}{name=nfc,span=2,column=1,below=lifi}{
-\textbf{How It Works}
-Near Field Communication (NFC) uses small chips to enable data transfer between active and passive devices. Active devices are powered externally and can both send and receive data. Passive devices do not require a power source and can only send data. In close proximity, active devices will induce small currents in passive ones.
+\headerbox{Near Field Communication}{name=nfc,span=2,column=1,below=lifi, above=bottom}{
+
+Near Field Communication (NFC) uses small chips to enable data transfer between active and passive devices. Active devices are powered externally and can both send and receive data. Passive devices do not require a power source and can only send data. In close proximity, active devices will induce small currents in passive ones. \linebreak
 
 \begin{wrapfigure}{r}{0.325\textwidth}
 	{\includegraphics[scale=0.195]{NFC_Diagram}}
 \end{wrapfigure}
+
 
 \textbf{Stats}\\
 • Max Range = 20cm\\ 
