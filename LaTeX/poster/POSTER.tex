@@ -4,6 +4,7 @@
 \usepackage{booktabs} % Horizontal rules in tables
 \usepackage{relsize} % Used for making text smaller in some places
 \usepackage{wrapfig} %Used to wrap images around text
+\usepackage{xcolor}
 
 \graphicspath{{figures/}} % Directory in which figures are stored
 
@@ -12,6 +13,7 @@
 \definecolor{headercol2}{RGB}{0,0,10} % Background color for the header in the content boxes (right side)
 \definecolor{headerfontcol}{RGB}{255,214,51} % Text color for the header text in the content boxes
 \definecolor{boxcolor}{RGB}{186,215,230} % Background color for the content in the content boxes
+\definecolor{textcol}{RGB}{255,255,255}%This is the color of text in textbox ajan just added this code and he is gassed
 
 \begin{document}
 
@@ -118,9 +120,9 @@ idk if we need this
 %	Wi-Fi
 %----------------------------------------------------------------------------------------
 \headerbox{Wi-Fi}{name=wifi,span=2,column=1,row=0}{ % To reduce this block to 1 column width, remove 'span=2'
-
+\textcolor{blue}{ 
 \textbf{What is Wi-Fi}
- Wi-Fi is defined as any “wireless local area network (WLAN) products that are based on the IEEE 802.11 standards.". Wi-Fi is usually a wave of frequency between 2.4GHz to 5GHz.
+ Wi-Fi is defined as any “wireless local area network (WLAN) products that are based on the IEEE 802.11 standards.". Wi-Fi is usually a wave of frequency between 2.4GHz to 5GHz.}
 \textbf{Uses}
 Networks are created through Wi-Fi where multiple devices can connect to one source of Wi-Fi and thus access the internet as well as communicate with other devices connected to the network. 
 
