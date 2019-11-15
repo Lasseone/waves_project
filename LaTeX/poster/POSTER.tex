@@ -56,25 +56,43 @@ This poster outlines a variety of technologies, which use waves as a means to tr
 %	AFH
 %----------------------------------------------------------------------------------------
 \headerbox{Adaptive Frequency Hopping}{name=AFH,column=0,below=introduction}{
-\textbf{What Is Frequency Hopping?} \\
-Adaptive Frequency Hopping (AFH) is a tehcnique where rather than using one single radiofrequency to transfer data, the frequency is constantly changing between a number of channels. This allows for both faster transfer speeds, and makes it harder for intruders to interfere with the signal. \\
+\textbf{What Is Frequency Hopping?} 
+Adaptive Frequency Hopping (AFH) is a tehcnique where rather than using one single radiofrequency to transfer data, the frequency is constantly changing between a number of channels. This allows for both faster transfer speeds, and makes it harder for intruders to interfere with the signal. 
 
-\textbf{Why Is It Adaptive?} \\
+\textbf{Why Is It Adaptive?} 
 The transmitting device is constantly monitoring the different channels to make an estimate of how good quality they are. For example, if one frequency is currently busy or being jammed, then it will simply use another channel.
 }
 
 %----------------------------------------------------------------------------------------
-%	Another misc box
+%	Neutrinos
 %----------------------------------------------------------------------------------------
-\headerbox{Another General Box}{name=AGB,column=0,below=AFH}{
-Box for another common feature (add more boxes as needed)
+\headerbox{Neutrino}{name=neutrino,column=0,below=AFH}{
+
+\textbf{History}
+Neutrino messaging is a hypothetical form of communication currently undergoing research. 
+It was first experimentally verified to work in 2012 by researchers from the
+University of Rochester and North Carolina State University.\\
+\textbf{Advantages}
+Unlike traditional forms of communication which rely on electromagnetic radiation, neutrinos are
+affected only by the weak force and gravity, meaning they can pass messages through virtually
+anything.
+This can be utilised to transmit information across vast expanses in space, or for a more present-day application,
+to send messages to nuclear submarines, as seawater can obstruct
+electromagnetic radiation.\\
+\textbf{Disadvantages}
+The uninteractive nature of neutrinos causes them to be difficult to detect. Neutrinos also oscillate
+between 3 flavours - electron, muon, and tau - this can be represented by a neutrino switching
+between waves of different frequencies as it travels through space. This can be a
+problem for certain detection methods.
+
 }
+
 
 %----------------------------------------------------------------------------------------
 %	CONCLUSION
 %----------------------------------------------------------------------------------------
 
-\headerbox{Conclusion}{name=conclusion,column=0,below=AGB}{
+\headerbox{Conclusion}{name=conclusion,column=0,below=neutrino}{
 These technologies have changed the world as we know it, allowing for us to be interconnected to a much greater extent than any time before. Many people's livelihoods, and some of the largest industries on the planet, revolve around the use of waves for communication.
 }
 
@@ -82,7 +100,7 @@ These technologies have changed the world as we know it, allowing for us to be i
 %	REFERENCES
 %----------------------------------------------------------------------------------------
 
-\headerbox{References}{name=references,column=0,below=conclusion}{
+\headerbox{References}{name=references,column=0,below=conclusion,above=bottom}{
 
 \smaller % Reduce the font size in this block
 idk if we need this
@@ -93,14 +111,9 @@ idk if we need this
 \bibliography{sample} % Use sample.bib as the bibliography file
 }
 
-%----------------------------------------------------------------------------------------
-%	ACKNOWLEDGEMENTS
-%----------------------------------------------------------------------------------------
 
-\headerbox{Acknowledgements}{name=acknowledgements,column=0,below=references, above=bottom}{
-\smaller % Reduce the font size in this block
-Rito
-} 
+
+
 
 %----------------------------------------------------------------------------------------
 %	Wi-Fi
@@ -205,7 +218,7 @@ Near Field Communication (NFC) works off of small chips enabling data transfer b
 \textbf{Stats}
 Max Range = 20cm. Max Speed = 424kbit/s. Transmission Frequency = 13.56MHz
 =======
-{\includegraphics[scale=0.15]{NFC Diagram}}
+{\includegraphics[scale=0.15]{NFC_Diagram}}
 
 \textbf{Stats}\\
 - Max Range = 20cm 
@@ -223,29 +236,7 @@ Transfer Speed. The maximum data transfer speed for NFC devices is 424kbit/s. Th
 
 }
 
-%----------------------------------------------------------------------------------------
-%	Neutrinos
-%----------------------------------------------------------------------------------------
-\headerbox{Neutrino}{name=neutrino,span=2,column=1,below=nfc,above=bottom}{
 
-\textbf{History}
-Neutrino messaging is a hypothetical form of communication currently undergoing research. 
-It was first experimentally verified to work in 2012 by researchers from the
-University of Rochester and North Carolina State University.\\
-\textbf{Advantages}
-Unlike traditional forms of communication which rely on electromagnetic radiation, neutrinos are
-affected only by the weak force and gravity, meaning they can pass messages through virtually
-anything.
-This can be utilised to transmit information across vast expanses in space, or for a more present-day application,
-to send messages to nuclear submarines, as seawater can obstruct
-electromagnetic radiation.\\
-\textbf{Disadvantages}
-The uninteractive nature of neutrinos causes them to be difficult to detect. Neutrinos also oscillate
-between 3 flavours - electron, muon, and tau - this can be represented by a neutrino switching
-between waves of different frequencies as it travels through space. This can be a
-problem for certain detection methods.
-
-}
 \end{poster}
 
 \end{document}
